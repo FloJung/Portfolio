@@ -1,0 +1,56 @@
+
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; // geändert von space-around für bessere Kontrolle
+    background-color: #141D2F;
+    padding: 37px 100px;
+    position: relative; // wichtig für absolute Positionierung des Bildes
+}
+
+.aboutTextContainer {
+    width: 600px; // Anpassbar nach Bedarf
+    color: #FFF;
+}
+
+.headAndSub {
+    h1 {
+        font-size: 90px;
+        font-weight: 700;
+    }
+    span {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+.aboutText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    span {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        margin-right: 35px;
+    }
+}
+
+.pfilePicture {
+    position: relative; 
+    width: 40%;
+    align-self: center; 
+
+    img {
+        position: absolute;
+        right: -50px; 
+        top: -240px; 
+        width: 500px; 
+        z-index: 10;
+    }
+}

@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #141D2F;
+    padding: 37px 100px 37px 100px;
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        // width: 300px;
+        gap: 29px;
+
+        a{
+            color: #FFFFFF;
+            font-size: 23px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+    }
+}
