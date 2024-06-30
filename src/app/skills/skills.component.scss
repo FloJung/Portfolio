@@ -1,0 +1,99 @@
+.skillContainer {
+    
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+header p {
+    margin-top: 0;
+    color: #94a3b8;  
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+
+
+.skillAtriputt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+
+    span {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.rowSkill {
+    display: flex;
+}
+
+.line {
+    background-color: #1CE6B6;
+    height: 4px;
+    width: 230px;
+    position: absolute;
+    right: 0;
+}
+
+.skillDescription {
+    
+
+
+    div {
+        display: flex;
+        align-items: center;
+        h1 {
+            font-size: 90px;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+
+    .text {
+        width: 400px;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+
+    button {
+        margin: 0;
+    }
+}
+
+.skill {
+    display: flex;
+    background: #141D2F;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 100px;
+    padding-top: 100px;
+
+}
+
+

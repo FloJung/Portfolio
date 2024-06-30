@@ -5,6 +5,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { SocialButtonsComponent } from './social-buttons/social-buttons.component';
 import { AboutComponent } from './about/about.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { AboutComponent } from './about/about.component';
     HeroSectionComponent,
     SocialButtonsComponent,
     AboutComponent,
+    SkillsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
