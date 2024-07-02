@@ -96,4 +96,26 @@ header p {
 
 }
 
+.backgroundSkill {
+    background: #141D2F;  
+    position: relative;
+}
 
+
+.transition {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: 0px;
+}
+
+.transition svg {
+    width: 100%;
+    height: auto;
+    
+}
+
+.transition svg path {
+    width: 100vw;
+    height: 100%;
+}

@@ -1,0 +1,46 @@
+.protfolioProjects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    .text {
+        color: #fff;
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #4B47FF;
+        }
+        h2 {
+            font-size: 23px;
+            font-weight: 400;
+            color: #00BEE8;
+        }
+        width: 700px;
+    }
+}
+
+.reverse-direction {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    .btn {
+        justify-content: flex-end;
+    }
+    
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .btn-Git {
+        background-color: #00bee800;
+        margin-left: 15px;
+        border: 1px solid #00BEE8;
+        &:hover {
+            background-color: #4a47ff00;
+        }
+    }
+}
+

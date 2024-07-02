@@ -1,0 +1,15 @@
+<div class="portfolioDescription">
+    <div class="lineHeadline">
+        <div class="line1"></div>
+        <h1>Portfolio</h1>
+        <div class="line"></div>
+    </div>
+    <div class="text">
+        <span>Explore a selection of my work here - Interact with projects to see my skills in action.</span>
+    </div>
+    <div class="evenSingleProject">
+        <app-single-project *ngFor="let project of projects; let i = index" [customClass]="i % 2 !== 0 ? 'reverse-direction' : ''"></app-single-project>
+    </div>
+    
+    
+</div>

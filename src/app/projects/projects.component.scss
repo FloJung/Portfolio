@@ -1,0 +1,55 @@
+*{
+    background-color: #141d2f;
+}
+
+.line {
+    background-color: #1CE6B6;
+    height: 4px;
+    width: 38%;
+    position: absolute;
+    right: 0;
+}
+
+.line1 {
+    background-color: #1CE6B6;
+    height: 4px;
+    width: 10%;
+    position: absolute;
+    right: 61%;
+}
+
+.portfolioDescription {
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+    .lineHeadline {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        h1 {
+            font-size: 90px;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+
+    .text {
+        
+        color: #fff;
+        margin-bottom: 50px;
+    }
+
+    button {
+        margin: 0;
+    }
+}
+
+.evenSingleProject {
+    display: flex;
+    flex-direction: column;
+    
+}
+
